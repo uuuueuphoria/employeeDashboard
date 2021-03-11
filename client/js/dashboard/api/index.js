@@ -3,8 +3,9 @@
 
 const api = {
   getAllDepartments:
-    'https://employee-dashboard-wanlun.herokuapp.com/api/departments/',
-  // Snippet #5
+    //'https://employee-dashboard-wanlun.herokuapp.com/api/departments/',
+    // Snippet #5
+    'https://employee-dashboard-wanlun.herokuapp.com/',
   getDepartment: (name) => {
     return `https://employee-dashboard-wanlun.herokuapp.com/api/departments/name/${name}`;
   },
