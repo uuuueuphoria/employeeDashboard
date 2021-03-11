@@ -2,15 +2,16 @@
 // developmentUrl = 'http://localhost:5000/
 
 const api = {
-  getAllDepartments: 'http://localhost:5000/api/departments/',
+  getAllDepartments:
+    'https://employee-dashboard-wanlun.herokuapp.com/api/departments/',
   // Snippet #5
   getDepartment: (name) => {
-    return `http://localhost:5000/api/departments/name/${name}`;
+    return `https://employee-dashboard-wanlun.herokuapp.com/api/departments/name/${name}`;
   },
   deleteEmployee: (id) => {
-    return `http://localhost:5000/api/departments/employee/id/${id}`;
+    return `https://employee-dashboard-wanlun.herokuapp.com/api/departments/employee/id/${id}`;
   },
-  updateEmployee: `http://localhost:5000/api/departments/employee/update`,
+  updateEmployee: `https://employee-dashboard-wanlun.herokuapp.com/api/departments/employee/update`,
 };
 
 export default api;
